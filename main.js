@@ -76,13 +76,13 @@ function checkVictory() {
 }
 const announceVictory = victor => {
   if (victor === "X") {
-    winner.textContent = "X Wins!";
+    winner.textContent = "X Wins! Cheers!";
     turn = NaN;
   } else if (victor === "O") {
-    winner.textContent = "O Wins!";
+    winner.textContent = "O Wins! Hurrey!";
     turn = NaN;
   } else if (victor === "None") {
-    winner.textContent = "Tie!";
+    winner.textContent = "It's a Tie!";
     turn = NaN;
   }
 }

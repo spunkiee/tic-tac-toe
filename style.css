@@ -1,28 +1,39 @@
 body{
     background: linear-gradient(to right, #e66465, #9198e5);
-    font-family: 'Chelsea Market', cursive;
+    /* font-family: 'Chelsea Market', cursive; */
     box-sizing: border-box;
-    font-weight: bold;
-    font-size: 3em;
+    /* font-weight: bold; */
+    /* font-size: 3em; */
     padding: 0;
     margin: 0;
     text-align: center; 
+    height: 100vh;
 }
 
 h1 {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5em;
+    margin: 0;
+    height: 20vh;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    font-size: 3em;
 }
 
 table {
-    margin: 50px auto;
+    margin: 40px auto 20px auto;
     border-collapse: collapse;
 }
 
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    font-size: 3em;
 }
 
 tr:nth-child(2) {
@@ -36,15 +47,30 @@ td:nth-child(2) {
 }
 
 .winner_dialog {
-    margin: 0 auto;
+    margin: 0  auto;
+    height: 10%;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .new_game_button {
-    font-size: 0.4em;
-    margin: 0 auto;
+    font-size: 1em;
+    margin: 20px auto 0 auto;
     cursor: pointer;
+    height: 10%;
 }
 
 footer {
-    font-size: 15px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+@media (min-width: 480px){
+    footer {
+        display: none;
+    }
 }
