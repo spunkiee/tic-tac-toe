@@ -96,7 +96,6 @@ function restart() {
 
 cells.forEach(cell => cell.addEventListener('click', function (e) {
   changeValue(cell);
-  console.log(e);
   checkVictory();
 }))
 

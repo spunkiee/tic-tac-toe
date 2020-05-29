@@ -44,3 +44,7 @@ td:nth-child(2) {
     margin: 0 auto;
     cursor: pointer;
 }
+
+footer {
+    font-size: 15px;
+}
